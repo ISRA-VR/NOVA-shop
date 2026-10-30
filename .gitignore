@@ -1,0 +1,30 @@
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Dependencias instaladas
+node_modules/
+
+# Archivos generados y temporales
+dist/
+build/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# Claves y certificados privados
+*.pem
+*.key
+*.p12
+*.pfx
