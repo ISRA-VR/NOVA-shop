@@ -1,22 +1,11 @@
-# Dependencias generales
 node_modules/
-
-# Variables de entorno y credenciales (¡Crítico para seguridad!)
 .env
 .env.*.local
 .env.local
-
-# Archivos compilados del frontend (Vite/React)
 front/dist/
 dist/
-
-# Archivos dinámicos del backend (Express/Node)
 back/uploads/
-
-# Logs de errores
 npm-debug.log*
 yarn-error.log*
-
-# Archivos del sistema operativo y editores
 .DS_Store
 .vscode/
